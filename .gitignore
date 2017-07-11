@@ -4,3 +4,4 @@ node_modules
 app/css
 app/lib
 styleguide
+app/js/fmodApi
