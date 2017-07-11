@@ -5,7 +5,7 @@ var reload = global.browserSync.reload;
 
 gulp.task('serve', ['css'], function () {
     global.browserSync.init({
-        server: global.paths.src,
+        server: [global.paths.src, 'app/js/fmodApi/studio/lib'],
         ghostMode: false
     });
 
