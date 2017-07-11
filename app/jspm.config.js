@@ -34,7 +34,7 @@ SystemJS.config({
     ]
   },
   map: {
-    "babel": "npm:babel-core@5.8.38",
+    "babel": "npm:babel-core@5.8.38"
   },
   packages: {
     "fmodPlayground": {
@@ -51,7 +51,8 @@ SystemJS.config({
   ],
   map: {
     "assert": "npm:jspm-nodelibs-assert@0.2.1",
-    "process": "npm:jspm-nodelibs-process@0.2.1"
+    "process": "npm:jspm-nodelibs-process@0.2.1",
+    "util": "npm:jspm-nodelibs-util@0.2.2"
   },
   packages: {}
 });
